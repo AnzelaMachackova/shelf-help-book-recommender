@@ -1,0 +1,163 @@
+[
+    {
+      "title": "Tomorrow, and Tomorrow, and Tomorrow",
+      "author": "Gabrielle Zevin",
+      "genre": "Fiction",
+      "description": "A heartwarming and heartbreaking story of friendship, creativity, and love across decades, set in the world of video game development.",
+      "mood": "Emotional",
+      "average_score": 9.2
+    },
+    {
+      "title": "Fourth Wing",
+      "author": "Rebecca Yarros",
+      "genre": "Fantasy",
+      "description": "A thrilling fantasy romance set in a dragon-riding military school where survival is everything.",
+      "mood": "Dark",
+      "average_score": 8.8
+    },
+    {
+      "title": "Lessons in Chemistry",
+      "author": "Bonnie Garmus",
+      "genre": "Fiction",
+      "description": "A witty and empowering tale of a 1960s woman scientist who becomes an unexpected TV cooking star.",
+      "mood": "Funny",
+      "average_score": 9.0
+    },
+    {
+      "title": "The House in the Cerulean Sea",
+      "author": "TJ Klune",
+      "genre": "Fantasy",
+      "description": "A charming tale about a caseworker who finds love and purpose at an orphanage for magical children.",
+      "mood": "Lighthearted",
+      "average_score": 9.4
+    },
+    {
+      "title": "Project Hail Mary",
+      "author": "Andy Weir",
+      "genre": "Fiction",
+      "description": "A lone astronaut must save Earth with the help of an unexpected alien companion.",
+      "mood": "Thoughtful",
+      "average_score": 9.1
+    },
+    {
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "genre": "Fantasy",
+      "description": "A woman explores alternate lives she could have lived through a magical library at the edge of death.",
+      "mood": "Thoughtful",
+      "average_score": 8.5
+    },
+    {
+      "title": "Babel",
+      "author": "R.F. Kuang",
+      "genre": "Fantasy",
+      "description": "A linguistic and colonial critique disguised as a dark, magical academic thriller in 1800s Oxford.",
+      "mood": "Dark",
+      "average_score": 8.9
+    },
+    {
+      "title": "Remarkably Bright Creatures",
+      "author": "Shelby Van Pelt",
+      "genre": "Fiction",
+      "description": "A widow bonds with a giant Pacific octopus in a touching tale of healing and connection.",
+      "mood": "Emotional",
+      "average_score": 8.7
+    },
+    {
+      "title": "Yellowface",
+      "author": "R.F. Kuang",
+      "genre": "Fiction",
+      "description": "A sharp critique of cultural appropriation and the publishing industry, told through a morally ambiguous narrator.",
+      "mood": "Dark",
+      "average_score": 8.6
+    },
+    {
+      "title": "Book Lovers",
+      "author": "Emily Henry",
+      "genre": "Romance",
+      "description": "Two rivals in publishing fall in love in this clever, bookish romantic comedy.",
+      "mood": "Funny",
+      "average_score": 8.4
+    },
+    {
+      "title": "The Seven Husbands of Evelyn Hugo",
+      "author": "Taylor Jenkins Reid",
+      "genre": "Fiction",
+      "description": "A reclusive Hollywood icon reveals her scandalous life story to a young journalist.",
+      "mood": "Emotional",
+      "average_score": 9.0
+    },
+    {
+      "title": "The Paris Library",
+      "author": "Janet Skeslien Charles",
+      "genre": "Fiction",
+      "description": "Based on a true story, a tale of bravery and friendship in the American Library in Paris during WWII.",
+      "mood": "Thoughtful",
+      "average_score": 8.2
+    },
+    {
+      "title": "Before the Coffee Gets Cold",
+      "author": "Toshikazu Kawaguchi",
+      "genre": "Fantasy",
+      "description": "In a small Tokyo café, visitors can travel back in time—but only for the duration of one cup of coffee.",
+      "mood": "Thoughtful",
+      "average_score": 8.5
+    },
+    {
+      "title": "The Anthropocene Reviewed",
+      "author": "John Green",
+      "genre": "Non-Fiction",
+      "description": "Essays reviewing facets of the human-centered world, filled with humor and sincerity.",
+      "mood": "Thoughtful",
+      "average_score": 8.8
+    },
+    {
+      "title": "Verity",
+      "author": "Colleen Hoover",
+      "genre": "Romance",
+      "description": "A chilling romantic thriller where nothing is as it seems and the truth is buried in a manuscript.",
+      "mood": "Dark",
+      "average_score": 8.3
+    },
+    {
+      "title": "I'm Glad My Mom Died",
+      "author": "Jennette McCurdy",
+      "genre": "Non-Fiction",
+      "description": "An unflinching, raw, and often funny look at childhood fame and a toxic relationship with her mother.",
+      "mood": "Emotional",
+      "average_score": 9.1
+    },
+    {
+      "title": "The Love Hypothesis",
+      "author": "Ali Hazelwood",
+      "genre": "Romance",
+      "description": "A fake-dating setup between a STEM PhD student and a grumpy professor evolves into real love.",
+      "mood": "Lighthearted",
+      "average_score": 8.6
+    },
+    {
+      "title": "Demon Copperhead",
+      "author": "Barbara Kingsolver",
+      "genre": "Fiction",
+      "description": "A modern-day retelling of David Copperfield, set in Appalachia and exploring addiction and resilience.",
+      "mood": "Emotional",
+      "average_score": 9.3
+    },
+    {
+      "title": "A Court of Thorns and Roses",
+      "author": "Sarah J. Maas",
+      "genre": "Fantasy",
+      "description": "A mortal girl is swept into a fae world of magic, love, and danger in this seductive fantasy saga.",
+      "mood": "Lighthearted",
+      "average_score": 8.7
+    },
+    {
+      "title": "People We Meet on Vacation",
+      "author": "Emily Henry",
+      "genre": "Romance",
+      "description": "Two best friends go on one last vacation in a second-chance romantic comedy.",
+      "mood": "Funny",
+      "average_score": 8.6
+    }
+  ]
+  
