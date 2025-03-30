@@ -4,6 +4,9 @@ class Node:
         self.next = None
 
 class LinkedList:
+    """
+    Implementation of a singly linked list to store and manage book dictionaries using Node class.
+    """
     def __init__(self):
         self.head = None
     
