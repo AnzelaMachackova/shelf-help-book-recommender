@@ -3,14 +3,14 @@ Like self-help, but with books. For your mental bookshelf.
 
 This project is a command-line book recommendation system designed to **practice core data structures and algorithms using Python**. The main goal is not to build a real recommender engine, but to **apply fundamental concepts** like **linked lists**, **merge sort**, and **binary search** in a realistic scenario using book data.
 
-## Main Learning Goals
+## Main Learning Goals
 
 - Understand, implement and use custom linked lists
 - Practice merge sort on lists of dictionaries
 - Implement binary search for strings
 - Design a clean and modular object-oriented structure
 
-## Class Documentation
+## Class Documentation
 
 ### LinkedList (in models/linked_list.py)
 
