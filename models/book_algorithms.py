@@ -41,13 +41,24 @@ class BookAlgorithms:
         left_pointer = 0
         right_pointer = len(sorted_data) - 1
         
-        while left_pointer < right_pointer:
+        result = []
+        while left_pointer <= right_pointer:
             middle_index = (left_pointer + right_pointer) // 2
             middle_value = sorted_data[middle_index][self.sorting_element]
             if middle_value == searching_element:
-                return sorted_data[middle_index]
+                result.append(sorted_data[middle_index])
+                # implementing logic for finding all matches
+                index = middle_index - 1
+                while (index >= 0) and (sorted_data[index][self.sorting_element] == searching_element):
+                    result.append(sorted_data[index])
+                    index -= 1
+                index = middle_index + 1
+                while index < len(sorted_data) and (sorted_data[index][self.sorting_element] == searching_element):
+                    result.append(sorted_data[index])
+                    index += 1
+                return result
             if searching_element < middle_value:
-                right_pointer = middle_index
+                right_pointer = middle_index - 1
             if searching_element > middle_value:
                 left_pointer = middle_index + 1
         return None

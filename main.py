@@ -1,6 +1,8 @@
 from models.linked_list import LinkedList
 import json
 from models.book_algorithms import BookAlgorithms
+import data.inputs
+from data.helpers import genre_letter_dict, mood_letter_dict
 
 book_data_json_path = 'data/books_data.json'
 
@@ -11,30 +13,43 @@ my_books = LinkedList()
 for book in book_data:
     my_books.append(book)
 
-#my_books.display_all()
+def main():
+    print(data.inputs.book_img)
+    print(data.inputs.welcome_message)
+    play_again = True
+    while play_again:
+        genre_letter = input(data.inputs.select_genre)
+        if genre_letter.lower().strip() in genre_letter_dict.keys():
+            genre = genre_letter_dict[genre_letter.lower().strip()]
+        else:
+            print("Incorrect input. Please, start again...")
+            continue
+        print("Your selected genre is: " + genre)
 
-#print(my_books.head.book)
+        book_class_for_binary_search_genre = BookAlgorithms(book_data, "genre")
+        selected_genre_list = book_class_for_binary_search_genre.binary_search_inside_list(genre)
+        mood_letter = input(data.inputs.select_mood)
+        
+        if mood_letter.lower().strip() in mood_letter_dict.keys():
+            mood = mood_letter_dict[mood_letter.lower().strip()]
+        else:
+            print("Incorrect input. Please, start again...")
+            continue
 
-fiction_list = LinkedList()
+        print("Your selected mood is: " + mood)
+        print(data.inputs.approval_message)
+        book_class_for_binary_search_mood = BookAlgorithms(selected_genre_list, "mood")
+        selected_mood_list = book_class_for_binary_search_mood.binary_search_inside_list(mood)
+        
+        if selected_mood_list:
+            print(f"First suggested book is: {selected_mood_list[0]}")
+        else:
+            print("There is no book for the specified criteria, we are sorry.")
+        
+        continue_game = input("Would you like to search for another book recommendation? (y/n)\n")
+        if continue_game.lower().strip() != "y":
+            print(data.inputs.goodbye_message)
+            play_again = False
 
-for book in book_data:
-    if book['genre'] == 'Fiction':
-        fiction_list.append(book)
-
-#print(fiction_list.get_books_data('title'))
-#print(fiction_list.get_all_books()[1])
-
-# test for merge sort 
-my_list = [{"key": 1, "value": "hello"}, {"key": 3, "value": "hello"}, {"key": 2, "value": "hello"}]
-my_sorting_element = "key"
-book_class_for_score_search = BookAlgorithms(my_list, my_sorting_element)
-
-# print(book_class_for_score_search.merge_sort_books())
-
-# test for binary search 
-my_sorting_element_for_title = "title"
-book_class_for_binary_search = BookAlgorithms(book_data, my_sorting_element_for_title)
-
-searching_value = "Lessons in Chemistry"
-searching_value_index = book_class_for_binary_search.binary_search_inside_list(searching_value)
-print(searching_value_index)
+if __name__ == "__main__":
+    main()
